@@ -11,8 +11,15 @@ Característica: Automatizacion Pagina Banco Parabank
 
     Ejemplos:
       | usuario   | clave |
-      | liz123  | Liz123 |
+      | usuario1 | 123456 |
 
 
+  @escenario2
+  Esquema del escenario: ingresar a la pagina parabank sin exito
+    Dado que el usuario ingresa a la pagina de parabank
+    Cuando ingresa su <usuario> y <clave>
+    Entonces observa el mensaje An internal error has occurred and has been logged.
 
-
+    Ejemplos:
+      | usuario   | clave |
+      | usuario1 | 123456 |

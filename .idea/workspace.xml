@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="18112284-1e33-45bf-8522-8baccb66eaf9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/userinterface/ParabankPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/userinterface/ParabankPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/runners/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/runners/RunnerTags.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/stepdefinitions/ParabankStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/stepdefinitions/ParabankStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/automatizacionparabank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automatizacionparabank.feature" afterDir="false" />
     </list>
@@ -60,19 +62,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.RunnerTags.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jjoaq/Ejercicios_de_Automatizacion/Proyecto-base-automatizacion&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.RunnerTags.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/jjoaq/Ejercicios_de_Automatizacion/ParabankAutomation/src/main/java/pa/com/automatizacion/parabank/questions",
+    "last_opened_file_path": "C:/Users/jjoaq/Ejercicios_de_Automatizacion/Proyecto-base-automatizacion",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pa.com.automatizacion.parabank.questions" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="RunnerTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>

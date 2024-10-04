@@ -4,10 +4,10 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-import static pa.com.automatizacion.parabank.userinterface.ParabankPage.CAMPO_CLAVE;
-import static pa.com.automatizacion.parabank.userinterface.ParabankPage.CAMPO_USER;
+import static pa.com.automatizacion.parabank.userinterface.ParabankPage.*;
 
 
 public class IniciarSesion implements Task {
@@ -27,6 +27,7 @@ public class IniciarSesion implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Enter.theValue(user).into(CAMPO_USER));
         actor.attemptsTo(Enter.theValue(pwd).into(CAMPO_CLAVE));
+        actor.attemptsTo(Click.on(BOTON_INGRESAR));
 
     }
 }

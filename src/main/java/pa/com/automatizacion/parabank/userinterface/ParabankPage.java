@@ -10,5 +10,6 @@ public class ParabankPage extends PageObject {
 
     public static final Target CAMPO_USER = Target.the("campo usuario del login").located(By.name("username"));
     public static final Target CAMPO_CLAVE = Target.the("campo clave del login").located(By.name("password"));
+    public static final Target BOTON_INGRESAR = Target.the("boton ingresar").located(By.xpath("//input[@value='Log In']"));
 
 }

@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="18112284-1e33-45bf-8522-8baccb66eaf9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/tasks/IniciarSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/tasks/IniciarSesion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/userinterface/ParabankPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/userinterface/ParabankPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/stepdefinitions/ParabankStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/stepdefinitions/ParabankStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/automatizacionparabank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automatizacionparabank.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="automatizacion_parabank" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>

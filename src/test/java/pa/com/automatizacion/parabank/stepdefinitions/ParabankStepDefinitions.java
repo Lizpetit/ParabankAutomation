@@ -33,7 +33,9 @@ public class ParabankStepDefinitions {
         theActorInTheSpotlight().wasAbleTo(IniciarSesion.con());
     }
 
-    @Entonces("^al ingresar observa el mensaje Welcome Usuario$")
-    public void alIngresarObservaElMensajeWelcomeUsuario() throws Exception {
+    @Entonces("^al ingresar observa el mensaje (.*)$")
+    public void alIngresarObservaElMensajeWelcomeUsuario(String mensaje) {
+        theActorInTheSpotlight().should(seeThat);
     }
+
 }

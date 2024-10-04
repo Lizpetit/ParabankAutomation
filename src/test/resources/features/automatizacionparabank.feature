@@ -12,15 +12,6 @@ Característica: Automatizacion Pagina Banco Parabank
 
     Ejemplos:
       | usuario   | clave |
-      | joaco123  | joaco123 |
+      | liz123  | Liz123 |
 
 
-  @Iniciar_Sesion
-  Esquema del escenario: : Usuario ingresa satisfactoriamente con sus credenciales al portal
-    Dado que el cliente esta en la pagina de Parabank
-    Cuando ingresa con su <usuario> y <password>
-    Entonces el usuario deberia ver el mensaje de bienvenida Welcome Joaco1
-
-    Ejemplos:
-      | usuario   | password |
-      | joaco123  | joaco123 |

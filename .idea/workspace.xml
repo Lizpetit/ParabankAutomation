@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18112284-1e33-45bf-8522-8baccb66eaf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/userinterface/ParabankPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pa/com/automatizacion/parabank/userinterface/ParabankPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/runners/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/runners/RunnerTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/stepdefinitions/ParabankStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/automatizacion/parabank/stepdefinitions/ParabankStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/automatizacionparabank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automatizacionparabank.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="automatizacion_parabank" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -54,10 +64,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.RunnerTags.executor": "Run",
+    "Gradle.RunnerTags.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/jjoaq/Ejercicios_de_Automatizacion/ParabankAutomation/src/main/java/pa/com/automatizacion/parabank/questions",
     "last_opened_file_path": "C:/Users/jjoaq/Ejercicios_de_Automatizacion/Proyecto-base-automatizacion",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -65,6 +76,11 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pa.com.automatizacion.parabank.questions" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="RunnerTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>

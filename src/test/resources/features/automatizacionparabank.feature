@@ -4,11 +4,22 @@
 Característica: Automatizacion Pagina Banco Parabank
 
   @escenario1
-  Escenario: ingresar a la pagina parabank con exito
+  Esquema del escenario: ingresar a la pagina parabank con exito
     Dado que el usuario ingresa a la pagina de parabank
-    Cuando ingresa su usuario y clave
-    Entonces da click en LOGIN
-    Y al ingresar observa el mensaje Welcome Usuario
+    Cuando ingresa su <usuario> y <clave>
+    Entonces al ingresar observa el mensaje Welcome Usuario1
+
+    Ejemplos:
+      | usuario   | clave |
+      | usuario1 | 123456 |
 
 
+  @escenario2
+  Esquema del escenario: ingresar a la pagina parabank sin exito
+    Dado que el usuario ingresa a la pagina de parabank
+    Cuando ingresa su <usuario> y <clave>
+    Entonces observa el mensaje An internal error has occurred and has been logged.
 
+    Ejemplos:
+      | usuario   | clave |
+      | usuario1 | 123456 |

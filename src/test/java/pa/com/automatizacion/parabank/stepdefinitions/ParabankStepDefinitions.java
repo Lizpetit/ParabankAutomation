@@ -4,10 +4,18 @@ import cucumber.api.java.Before;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Entonces;
+import net.serenitybdd.core.annotations.findby.By;
+import net.serenitybdd.screenplay.Consequence;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import org.openqa.selenium.WebElement;
+import pa.com.automatizacion.parabank.questions.VerMensaje;
+import pa.com.automatizacion.parabank.questions.VerTexto;
 import pa.com.automatizacion.parabank.tasks.Abrir;
+import pa.com.automatizacion.parabank.tasks.IniciarSesion;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class ParabankStepDefinitions {
     @Before
@@ -21,17 +29,21 @@ public class ParabankStepDefinitions {
 
     }
 
-    @Cuando("^ingresa su usuario y clave$")
-    public void ingresaSuUsuarioYClave() throws Exception {
-
+    @Cuando("^ingresa su (.*) y (.*)$")
+    public void ingresaSuUsuarioYClave(String usuario, String clave) {
+        System.setProperty("user",usuario);
+        System.setProperty("pwd",clave);
+        theActorInTheSpotlight().wasAbleTo(IniciarSesion.con());
     }
 
-    @Entonces("^da click en LOGIN$")
-    public void daClickEnLOGIN() throws Exception {
-
+    @Entonces("^al ingresar observa el mensaje (.*)$")
+    public void alIngresarObservaElMensajeWelcomeUsuario(String mensaje) {
+        theActorInTheSpotlight().should(seeThat(VerMensaje.ingresoExitoso(mensaje)));
     }
 
-    @Entonces("^al ingresar observa el mensaje Welcome Usuario$")
-    public void alIngresarObservaElMensajeWelcomeUsuario() throws Exception {
+    @Entonces("^observa el mensaje (.*)$")
+    public void observaElMensaje(String mensaje)  {
+        theActorInTheSpotlight().should(seeThat(VerTexto.ingresoFallido(mensaje)));
+
     }
 }

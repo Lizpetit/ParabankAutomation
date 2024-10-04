@@ -7,6 +7,9 @@ import cucumber.api.java.es.Entonces;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import pa.com.automatizacion.parabank.tasks.Abrir;
+import pa.com.automatizacion.parabank.tasks.IniciarSesion;
+
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 
 public class ParabankStepDefinitions {
@@ -21,8 +24,11 @@ public class ParabankStepDefinitions {
 
     }
 
-    @Cuando("^ingresa su usuario y clave$")
-    public void ingresaSuUsuarioYClave() throws Exception {
+    @Cuando("^ingresa su (.*) y (.*)$")
+    public void ingresaSuUsuarioYClave(String usuario, String clave) {
+        System.setProperty("user",usuario);
+        System.setProperty("pwd",clave);
+        theActorInTheSpotlight().wasAbleTo(IniciarSesion.con());
 
     }
 
